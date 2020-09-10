@@ -8,7 +8,7 @@ import com.example.crossnumberpuzzle.presentation.model.NumberPlaceBoardModel
 public class GameMainViewModel() : ViewModel() {
     var selectedRow = 0
     var selectedCell = 0
-    var board:Array<IntArray> = arrayOf(intArrayOf(0,0,0,0,0,0,0,0,0), intArrayOf(0,0,0,0,0,0,0,0,0,0,0))
+    var board:NumberPlaceBoardModel = NumberPlaceBoardModel()
 
     fun initBoard(){
         NumberPlaceBoardModel().getBoard()
@@ -20,7 +20,7 @@ public class GameMainViewModel() : ViewModel() {
     }
 
     fun numberButtonTapped(num: Int){
-
+        board.setNumber(selectedRow,selectedCell,num)
     }
 
 }

@@ -41,7 +41,7 @@
                     android:layout_marginStart="1dp"
                     android:background="@color/cardview_light_background"
                     android:gravity="center"
-                    android:text=""
+                    android:text="@{String.valueOf(viewModel.board[0][0])}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -51,7 +51,7 @@
                     android:layout_marginStart="1dp"
                     android:background="@color/cardview_light_background"
                     android:gravity="center"
-                    android:text=""
+                    android:text="@{String.valueOf(viewModel.board[0][1])}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -61,7 +61,7 @@
                     android:layout_marginStart="1dp"
                     android:background="@color/cardview_light_background"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@{String.valueOf(viewModel.board[0][2])}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -71,7 +71,7 @@
                     android:layout_marginStart="3dp"
                     android:background="@color/cardview_light_background"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@{String.valueOf(viewModel.board[0][3])}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -81,7 +81,7 @@
                     android:layout_marginStart="1dp"
                     android:background="@color/cardview_light_background"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@{String.valueOf(viewModel.board[0][4])}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -91,7 +91,7 @@
                     android:layout_marginStart="1dp"
                     android:background="@color/cardview_light_background"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@{String.valueOf(viewModel.board[0][5])}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -101,7 +101,7 @@
                     android:layout_marginStart="3dp"
                     android:background="@color/cardview_light_background"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@{String.valueOf(viewModel.board[0][6])}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -111,7 +111,7 @@
                     android:layout_marginStart="1dp"
                     android:background="@color/cardview_light_background"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@{String.valueOf(viewModel.board[0][7])}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -121,7 +121,7 @@
                     android:layout_marginStart="1dp"
                     android:background="@color/cardview_light_background"
                     android:gravity="center"
-                    android:text="0"
+                    android:text="@{String.valueOf(viewModel.board[0][8])}"
                     android:textAlignment="center" />
 
             </TableRow>
