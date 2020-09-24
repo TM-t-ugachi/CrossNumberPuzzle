@@ -11,6 +11,7 @@ import android.widget.TableRow
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.crossnumberpuzzle.R
 import com.example.crossnumberpuzzle.databinding.FragmentSecondBinding
@@ -64,7 +65,7 @@ class GameMainFragment : Fragment() {
         for(i in 0 until gridLayout.childCount){
             val child: View = gridLayout.getChildAt(i)
             child.setOnClickListener {
-                viewModel.numberButtonTapped(i)
+                viewModel.numberButtonTapped(i + 1)
 
             }
         }
